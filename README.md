@@ -12,4 +12,7 @@ ben naming
 sass?
 flex grid?
 
-## create basic indexpage
+30/07 create basic indexpage
+problems with making the site responsive _task_
+
+31/07
