@@ -1,0 +1,17 @@
+.footer {
+  background-color: #bc290c;
+  height: 40vh;
+  display: block;
+}
+
+.footer p,
+.footer a {
+  color: white;
+  font-family: roboto;
+}
+
+.footer .logo__footer {
+  background-color: white;
+  height: 10vw;
+}
+/*# sourceMappingURL=style.css.map */
