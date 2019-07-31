@@ -6,16 +6,18 @@ $font: roboto;
 .footer {
   display: block;
   background-color: $primary__red;
-
-  p,
-  a {
+  p {
     color: white;
     font-family: $font;
   }
 
   .logo__footer {
     background-color: white;
-
-    width: 100vw;
   }
+}
+.button__orange--big {
+  background-color: #e79d30;
+  width: 160px;
+  color: white;
+  font-family: $roboto;
 }

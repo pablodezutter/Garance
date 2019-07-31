@@ -1,17 +1,20 @@
 .footer {
-  background-color: #bc290c;
-  height: 40vh;
   display: block;
+  background-color: #bc290c;
 }
 
-.footer p,
-.footer a {
+.footer p {
   color: white;
   font-family: roboto;
 }
 
 .footer .logo__footer {
   background-color: white;
-  height: 10vw;
+}
+
+.button__orange--big {
+  background-color: #e79d30;
+  width: 160px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
