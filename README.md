@@ -15,4 +15,11 @@ flex grid?
 30/07 create basic indexpage
 problems with making the site responsive _task_
 
-31/07 Maybe a jumbotron will offer a solution
+31/07
+
+- Maybe a jumbotron will offer a solution
+- create classes
+
+* work meeting with Fiona, switched tasks
+  \*making more divs for footer
+* create some scss
