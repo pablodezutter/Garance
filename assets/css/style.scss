@@ -6,6 +6,7 @@ $font: roboto;
 .footer {
   display: block;
   background-color: $primary__red;
+  margin-bottom: 4px;
   p {
     color: white;
     font-family: $font;
@@ -17,7 +18,10 @@ $font: roboto;
 }
 .button__orange--big {
   background-color: #e79d30;
-  width: 160px;
+  width: 235px;
+  height: 100px;
   color: white;
-  font-family: $roboto;
+  font-family: $font;
+  border-radius: 20px;
+  margin-top: 30px;
 }
