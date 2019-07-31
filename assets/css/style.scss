@@ -4,9 +4,9 @@ $primary__yellow: #e79d30;
 $font: roboto;
 
 .footer {
-  background-color: $primary__red;
-  height: 40vh;
   display: block;
+  background-color: $primary__red;
+
   p,
   a {
     color: white;
@@ -15,6 +15,7 @@ $font: roboto;
 
   .logo__footer {
     background-color: white;
-    height: 10vw;
+    height: 10vh;
+    width: 100vw;
   }
 }
