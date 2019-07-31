@@ -1,9 +1,20 @@
 //define primary colors in a var//
 $primary__red: #bc290c;
 $primary__yellow: #e79d30;
+$font: roboto;
 
 .footer {
   background-color: $primary__red;
-  height: 400px;
+  height: 40vh;
   display: block;
+  p,
+  a {
+    color: white;
+    font-family: $font;
+  }
+
+  .logo__footer {
+    background-color: white;
+    height: 10vw;
+  }
 }
