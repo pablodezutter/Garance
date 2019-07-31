@@ -15,4 +15,4 @@ flex grid?
 30/07 create basic indexpage
 problems with making the site responsive _task_
 
-31/07
+31/07 Maybe a jumbotron will offer a solution
