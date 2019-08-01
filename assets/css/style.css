@@ -1,17 +1,31 @@
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #bc290c;
-  height: 40vh;
-  display: block;
+  margin-bottom: 4px;
 }
 
-.footer p,
-.footer a {
+.footer p {
   color: white;
   font-family: roboto;
 }
 
 .footer .logo__footer {
   background-color: white;
-  height: 10vw;
+}
+
+.footer a {
+  color: white;
+}
+
+.button__orange--big {
+  background-color: #e79d30;
+  width: 235px;
+  height: 100px;
+  color: white;
+  font-family: roboto;
+  border-radius: 20px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
