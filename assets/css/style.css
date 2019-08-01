@@ -1,5 +1,7 @@
 .footer {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #bc290c;
   margin-bottom: 4px;
 }
@@ -11,6 +13,10 @@
 
 .footer .logo__footer {
   background-color: white;
+}
+
+.footer a {
+  color: white;
 }
 
 .button__orange--big {

@@ -1,0 +1,28 @@
+footer > ul,
+li,
+p {
+  color: white;
+  list-style: none;
+}
+
+.row.red {
+  background-color: #bc290c;
+}
+.row.white {
+  background-color: white;
+  border: 2px dotted black;
+  height: 200px;
+  flex-direction: column;
+}
+
+.button__orange--big {
+  width: 150px;
+  height: 50px;
+  background-color: #e79d30;
+  border-radius: 15px;
+}
+
+.btn btn-outline-secondary {
+  background-color: grey;
+  color: white;
+}
