@@ -2,6 +2,20 @@ body {
   margin: 0 auto;
 }
 
+.line__top {
+  position: relative;
+  top: -17px;
+}
+.nav-item > a:link {
+  color: white;
+}
+.nav-item > a:hover {
+  color: white;
+}
+.nav-item > a:visited {
+  color: white;
+}
+
 footer > ul,
 li {
   color: white;
@@ -11,7 +25,7 @@ li {
 }
 
 .input-group-append {
-  background-color: grey;
+  background-color: rgb(250, 244, 244);
 }
 .input-group-append > span {
   background-color: black;
@@ -57,4 +71,8 @@ li {
 }
 .name {
   font-size: 35px;
+}
+
+#image__footer {
+  margin-top: -20px;
 }
