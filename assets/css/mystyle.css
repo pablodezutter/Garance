@@ -1,18 +1,39 @@
+body {
+  margin: 0 auto;
+}
+
 footer > ul,
-li,
-p {
+li {
   color: white;
   list-style: none;
+  font-size: 35px;
+  text-align: center;
+}
+
+.input-group-append {
+  background-color: grey;
+}
+.input-group-append > span {
+  background-color: black;
+  color: rgb(247, 243, 243);
+}
+.btn btn-outline-secondary > span {
+  background-color: rgba(201, 194, 194, 0.671);
+  color: white;
 }
 
 .row.red {
   background-color: #bc290c;
+  padding: 20px;
+  justify-items: center;
 }
 .row.white {
   background-color: white;
-  border: 2px dotted black;
   height: 200px;
-  flex-direction: column;
+}
+
+.orange__button {
+  text-align: center;
 }
 
 .button__orange--big {
@@ -20,9 +41,20 @@ p {
   height: 50px;
   background-color: #e79d30;
   border-radius: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.btn btn-outline-secondary {
-  background-color: grey;
+.input-group mb-5 {
+  text-align: center;
+}
+
+.adress,
+.inscription {
   color: white;
+  text-align: center;
+}
+.name {
+  font-size: 35px;
 }
