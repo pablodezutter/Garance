@@ -1,57 +1,121 @@
+.header{
+  background-color: #BC290C;
+  display:flex;
+  
+  /* Rectangle 6.2 */
 
-.navbar {
-    display:flex;
-    background-color: #E79D30;
+position: absolute;
+width: 638px;
+height: 135px;
+left: 920px;
+top: 186px;
+}
+.row{
+   display:flex;
+
+}
+img{
+  image width=100%
+}
+/*NAVIGATION BAR RESPONSIVE*/
+/* Large screens*/
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+}
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+#WhiteSpacingHeader{
+  /* Rectangle 10 */
+  position: absolute;
+  width: 1585px;
+  height: 33px;
+  left: 0px;
+  top: 334px;
+  background: #FFFFFF;
+  }
+4#,5#, {
+  position: relative ; 
+  position: right; 
+}
+
+.navbar-brand{
+  position: absolute left; 
+  left: 4px;
+/* Rectangle 7 */
+
+position: absolute;
+width: 742px;
+height: 133px;
+left: -111px;
+top: 15px;
+}
+
+position: absolute;
+width: 638px;
+height: 135px;
+left: 920px;
+top: 186px;
+
+background: #E79D30;
+img= 
+
+  .navbar {
+  
     display: flex;
     padding: 16px;
     font-family: sans-serif;
     font-family:Roboto; 
     font-size: 40px;
-    color:pink;
+    color:
   }
-  
-  .NavBar {
-    background-color:#BC280A;
+    #NavBar {
+    background-color:white;
     display: flex;
     padding: 16px;
     font-family: sans-serif;
     color: white;
   }
-  
   .Navbar__Link {
     padding-right: 8px;
   }
-  
   .Navbar__Items {
     display: flex;
   }
-  
   .Navbar__Items--right {
     margin-left:auto;
   }
-  
   .Navbar__Link-toggle {
     display: none;
-  
-  
-  @media only screen and (max-width: 768px) {
+  }
+@media only screen and (max-width: 768px) {
     .Navbar__Items,
     .Navbar {
       flex-direction: column;
-    }
-      
+    } 
   .Navbar__Items {
       display:none;
-    }
-      
+    }    
   .Navbar__Items--right {
       margin-left:0;
-    }
-      
+    }   
   .Navbar__ToggleShow {
       display: flex;
-    }
-      
+    } 
   .Navbar__Link-toggle {
       align-self: flex-end;
       display: initial;
@@ -59,23 +123,137 @@
       cursor: pointer;  
      } 
   }
- navButtons, #garanceNavButton, #agendaNavButton, #docNavButton {
-    position:right; 
-    color:#BC280A;
-    background-color: white; 
-    border:none; 
-    vertical-align: top; 
-    line-height: 47px; 
-    line-height: 100%; 
 
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: Medium;
-    align: center;
-  }
   #homeNavButton{
-    color:#E79D30;
+    /* HOME */
+    color: #E79D30;
+    background-color:white;
+    position: absolute;
+    width: 348px;
+    height: 52px;
+    left: 4px;
+    top: 370px;
+    
     font-family: Roboto;
-  position: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    }
+
+  #garanceNavButton{
+    /*GARANCE*/
+    color:#BC280C;
+    background-color:white;
+    position: absolute;
+    width: 348px;
+    height: 52px;
+    left: 376px;
+    top: 370px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    }          
+
+#agendaNavButton{
+  /* ACTIVITE */
+color: #BC290C;
+background-color: white;
+position: absolute;
+width: 382px;
+height: 41px;
+left: 763px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
 }
-  
+
+#docNavButton{
+  /* DOCUMENTATION */
+color: #BC280A;
+position: absolute;
+width: 341px;
+height: 48px;
+left: 1175px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+}
+
+.linearGradient {
+position: absolute;
+width: 1580.39px;
+height: 21.01px;
+left: 0px;
+top: 462.01px;
+
+
+/* Rectangle 6.45 */
+
+position: absolute;
+width: 1572.37px;
+height: 42px;
+left: -12.56px;
+top: 464px;
+
+background: #E79D30;
+transform: rotate(0.6deg);
+
+
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* We tell all items to be 100% width, via flex-basis */
+.wrapper > * {
+  flex: 1 100%;
+}
+
+/* We rely on source order for mobile-first approach
+ * in this case:
+ * 1. header
+ * 2. article
+ * 3. aside 1
+ * 4. aside 2
+ * 5. footer
+ */
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .aside { flex: 1 auto; }
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take twice as much width as the other two sidebars 
+   */
+  .main { flex: 2 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+.img {
+  viewpoort vw;: 
+
+
+}
