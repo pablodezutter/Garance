@@ -1,0 +1,30 @@
+//define primary colors in a var//
+$primary__red: #bc290c;
+$primary__yellow: #e79d30;
+$font: roboto;
+
+.footer {
+  display: flex;
+  background-color: $primary__red;
+  margin-bottom: 4px;
+  p {
+    color: white;
+    font-family: $font;
+  }
+
+  .logo__footer {
+    background-color: white;
+  }
+  a {
+    color: white;
+  }
+}
+.button__orange--big {
+  background-color: #e79d30;
+  width: 235px;
+  height: 100px;
+  color: white;
+  font-family: $font;
+  border-radius: 20px;
+  margin-top: 30px;
+}
